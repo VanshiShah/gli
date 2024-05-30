@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100%;
+}
+
+header/
+.menu-btn{
+    color: black;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;/
+}
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background-color: #f3819c;
+}
+
+.navbar .logo h1{
+    color: black;
+    border-bottom: 4px solid rgb(241, 47, 122);
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    display: block;
+    margin-left: 20px;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+ input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: 0;
+    font-size: 18px;
+    padding-left: 2px;
+    background: transparent;
+}
+ button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+button .fa{
+    width: 25px;
+    color: #f3819c;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 0 20px;
+    margin-left: 1px;
+}
+.result-box{
+  border-top: 1px solid #999;
+  padding: 15px 10px;
+}
+.result-box ul li{
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.result-box ul li:hover{
+  background-color: #ebb8c4;
+}
+  a.macbtn {
+    font-family: "Arial";
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f3819c;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin: 0 10px;
+    color: black;
+  }
+  a.swissbtn {
+    font-family: "Poppins";
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f3819c;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin: 0 10px;
+    color: black;
+  }
+  a.maybtn {
+    font-family: "Poppins";
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f3819c;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin: 0 10px;
+    color: black;
+  }
+  a.lakbtn {
+    font-family: "Poppins";
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f3819c;
+    padding: 8px 20px;
+    border-radius: 25px;
+    margin: 0 10px;
+    color: black;
+  }
+
+  products/
+
+  .sec{
+    padding: 10px 5%;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+  .products .card{
+    width: 250px;
+    background: #f5f5ff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin: 70px 20px 20px 70px;
+  }
+
+.products .card .desc{
+  padding: 5px 20px;
+  opacity: 0.8;
+}
+
+.products .card .title{
+  font-weight: 800;
+  font-size: 18px;
+  color: black;
+  padding: 0 18px;
+}
+
+.products .card .box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+}
+.card a{
+  text-decoration: none;
+}
+.products .card .box .Price{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.products .card .btn{
+  font-size: 13px;
+  color: rgb(241, 47, 122);
+  padding: 10px 18px;
+  font-weight: 900;
+  border: 1px solid rgb(241, 47, 122);
+  border-radius: 20px;
+}
+
+.products .card .btn:hover{
+  cursor: pointer;
+  background-color: rgb(241, 47, 122);
+  color: white;
+}
+
+.products .card .btn1{
+  font-size: 13px;
+  color: rgb(241, 47, 122);
+  padding: 10px 18px;
+  font-weight: 900;
+  border: 1px solid rgb(241, 47, 122);
+  border-radius: 20px;
+}
+
+.products .card .btn1:hover{
+  cursor: pointer;
+  background-color: rgb(241, 47, 122);
+  color: white;
+}
+
+footer/
+
+footer{
+  background-color: #f3819c;
+  height: 10vh;
+}
+footer p{
+  text-align: center;
+  line-height: 10vh;
+}
+footer p a{
+  text-decoration: none;
+  color: rgb(201, 55, 116);
+  font-weight: bold;
+}
